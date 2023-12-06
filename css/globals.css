@@ -11,6 +11,7 @@
 :root {
   --background: 0 0% 100%;
   --background-accent: 84 20% 95%;
+  // --background-accent: 140 60% 98%;
   --foreground: 240 10% 3.9%;
   --card: 0 0% 100%;
   --card-foreground: 240 10% 3.9%;
@@ -170,6 +171,12 @@ input {
 
   #logo {
     font-size: 2rem;
+    display: flex;
+    align-items: center;
+
+    & img {
+      margin-right: 1rem;
+    }
   }
 
   #nav ul {
