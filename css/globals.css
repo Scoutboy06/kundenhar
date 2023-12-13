@@ -134,8 +134,15 @@ input {
   }
 
   &.ghost {
-    --_hover-bg: hsl(var(--accent));
+    // --_hover-bg: hsl(var(--accent));
+    --_hover-bg: rgba(0, 0, 0, 0.05);
     --_hover-color: hsl(var(--accent-foreground));
+  }
+
+  &.icon {
+    padding: 0;
+    aspect-ratio: 1;
+    border-radius: 50%;
   }
 
   &.link {

@@ -194,9 +194,36 @@
 
   .cards-container {
     display: flex;
-    justify-content: space-between;
     margin-top: 4rem;
     gap: 3rem;
+
+    .card {
+      display: flex;
+      background-color: hsl(var(--card));
+      // height: 200px;
+      width: 400px;
+      border-radius: var(--radius);
+      box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+        0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+      padding: 2rem 2rem;
+      gap: 1.5rem;
+      transition: box-shadow 0.3s, background-color 0.3s;
+
+      &:hover {
+        // TODO: Add shadow hover effect
+        background-color: rgba(0, 0, 0, 0.03);
+      }
+
+      .img {
+        width: 40px;
+      }
+
+      .inner-container {
+        display: flex;
+        flex-direction: column;
+        gap: 0.4rem;
+      }
+    }
   }
 }
 
