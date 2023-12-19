@@ -111,6 +111,7 @@
   & > .top {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 4rem;
 
     & h2 {
       font-size: 2.5rem;
@@ -130,7 +131,6 @@
   .cards-container {
     display: flex;
     justify-content: space-between;
-    margin-top: 4rem;
     gap: 3rem;
 
     .card {
@@ -172,7 +172,6 @@
 
   .cards-container {
     display: flex;
-    margin-top: 4rem;
     gap: 3rem;
 
     .card {
@@ -216,7 +215,77 @@
 }
 
 #recent-posts {
+  --_article-gap: 2rem;
   grid-area: posts;
+
+  .articles-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--_article-gap);
+
+    & > article {
+      display: flex;
+      gap: var(--_article-gap);
+      flex-direction: column;
+
+      &:not(:first-child) .description {
+        display: none;
+      }
+
+      &:first-child {
+        grid-column: span 2;
+        flex-direction: row;
+
+        .banner {
+          height: 500px;
+          width: 60%;
+        }
+
+        .details {
+          width: 40%;
+        }
+
+        .title {
+          font-size: 2rem;
+        }
+      }
+
+      .banner {
+        height: 400px;
+        width: 100%;
+        overflow: hidden;
+
+        & img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          transition: transform 0.3s;
+
+          &:hover {
+            transform: scale(1.1);
+          }
+        }
+      }
+
+      .details {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+      }
+
+      .author {
+        display: flex;
+        align-items: center;
+        gap: 0.6rem;
+
+        .img {
+          width: 48px;
+          aspect-ratio: 1;
+          border-radius: 50%;
+        }
+      }
+    }
+  }
 }
 
 #footer {
