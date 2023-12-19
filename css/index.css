@@ -226,10 +226,6 @@
       gap: var(--_article-gap);
       flex-direction: column;
 
-      &:not(:first-child) .description {
-        display: none;
-      }
-
       &:first-child {
         grid-column: span 2;
         flex-direction: row;

@@ -219,7 +219,6 @@ input {
   display: grid;
   grid-template-columns: 2fr 1fr 1fr 1fr;
   gap: 5rem 0.5rem;
-  // grid-template: auto auto / 2fr 1fr 1fr 1fr;
 
   & > section {
     padding-left: 0.8rem;
