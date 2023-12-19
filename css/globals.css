@@ -18,8 +18,8 @@
 
   --primary: 145 63% 49%;
   // #2ecc70
-  // --primary-foreground: 0 0% 100%;
-  --primary-foreground: 355.7 100% 97.3%;
+  --primary-foreground: 0 0% 100%;
+  // --primary-foreground: 355.7 100% 97.3%;
 
   // --secondary: 325 63% 49%;
   --secondary: 240 4.8% 95.9%;
@@ -134,7 +134,7 @@ input {
   }
 
   &.ghost {
-    // --_hover-bg: hsl(var(--accent));
+    --_hover-bg: hsl(var(--accent));
     --_hover-bg: rgba(0, 0, 0, 0.05);
     --_hover-color: hsl(var(--accent-foreground));
   }
