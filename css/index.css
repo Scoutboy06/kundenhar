@@ -4,8 +4,8 @@
     'hero'
     'companies'
     'jobs'
-    'posts'
-    'footer';
+    'posts';
+  row-gap: 10rem;
 }
 
 #hero {
@@ -105,7 +105,6 @@
 #top-companies,
 #recent-jobs,
 #recent-posts {
-  margin-top: 10rem;
   padding: 0 var(--global-padding);
 
   & > .top {
@@ -168,7 +167,6 @@
 
 #recent-jobs {
   grid-area: jobs;
-  margin-top: 15rem;
 
   .cards-container {
     display: flex;
@@ -286,10 +284,4 @@
       }
     }
   }
-}
-
-#footer {
-  height: 120px;
-  background-color: crimson;
-  margin-top: 5rem;
 }
