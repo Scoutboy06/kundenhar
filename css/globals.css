@@ -177,7 +177,7 @@ input {
   right: 0;
   height: var(--header-height);
   padding: 0 var(--global-padding);
-  background-color: hsl(var(--background-accent));
+  background-color: transparent;
   color: #000;
   display: flex;
   justify-content: space-between;

@@ -1,15 +1,185 @@
 <!DOCTYPE html>
-<html lang="sv">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Jobs - CareerCrafters</title>
+    <title>Home - CareerCrafters</title>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
     <link
       rel="stylesheet"
       href="https://raw.githubusercontent.com/necolas/normalize.css/master/normalize.css"
     />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
     <link rel="stylesheet" href="css/globals.css" />
     <link rel="stylesheet" href="css/jobs.css" />
+    <script src="js/globals.js" defer></script>
   </head>
-  <body></body>
+  <body>
+    <div id="container">
+      <header id="header">
+        <div class="left">
+          <a href="/" class="logo">
+            <img src="img/logo.svg" alt="Logo" />
+            <span class="primary">Career</span>Crafters
+          </a>
+
+          <nav id="nav" aria-label="Primary navigation">
+            <ul>
+              <li><a class="btn link" href="/">Home</a></li>
+              <li><a class="btn link active" href="/jobs.html">Jobs</a></li>
+              <li><a class="btn link" href="#">Blog</a></li>
+              <li><a class="btn link" href="#">Contact</a></li>
+              <li>
+                <a class="btn link" href="/our-team.html">Our Team</a>
+              </li>
+              <li><a class="btn link" href="#">About</a></li>
+            </ul>
+          </nav>
+        </div>
+
+        <div class="right">
+          <a href="#" class="btn ghost">Log in</a>
+
+          <a href="#" class="btn primary">Sign up</a>
+        </div>
+      </header>
+
+      <div id="inner-container">
+        <aside>
+          <!-- Job Type: Full-time, Part-time, Internship, Contract, Temporary, etc. -->
+          <section>
+            <h4>Job Type</h4>
+
+            <div class="checkbox">
+              <input type="checkbox" name="job_type" id="full_time" checked />
+              <label for="full_time">Full Time</label>
+            </div>
+            <div class="checkbox">
+              <input type="checkbox" name="job_type" id="part_time" checked />
+              <label for="part_time">Part Time</label>
+            </div>
+            <div class="checkbox">
+              <input type="checkbox" name="job_type" id="internship" checked />
+              <label for="internship">Internship</label>
+            </div>
+            <div class="checkbox">
+              <input type="checkbox" name="job_type" id="contract" checked />
+              <label for="contract">Contract</label>
+            </div>
+            <div class="checkbox">
+              <input type="checkbox" name="job_type" id="temporary" checked />
+              <label for="temporary">Temporary</label>
+            </div>
+          </section>
+
+          <!-- Location: City, State, Country, Remote, etc. -->
+
+          <!-- Industry: Technology, Healthcare, Finance, Education, etc. -->
+
+          <!-- Company: If the site lists jobs from multiple companies. -->
+
+          <!-- Experience Level: Entry-level, Mid-level, Senior-level, Management, etc. -->
+
+          <!-- Salary Range: This could be a slider where users can select a minimum and maximum salary. -->
+
+          <!-- Date Posted: Last 24 hours, Last week, Last month, etc. -->
+
+          <!-- Skills Required: Programming, Sales, Marketing, Leadership, etc. -->
+
+          <!-- Education Level: High School, Bachelor’s, Master’s, PhD, etc. -->
+
+          <!-- Work Schedule: Day shift, Night shift, Flexible, etc. -->
+
+          <!-- Benefits: Health insurance, Retirement plan, Paid time off, etc. -->
+        </aside>
+
+        <main></main>
+      </div>
+
+      <footer id="footer">
+        <section>
+          <a href="/" class="logo">
+            <img src="/img/logo.svg" alt="logo" />
+            <p><span class="primary">Carreer</span>Crafters</p>
+          </a>
+
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis
+            repellendus deleniti alias doloribus laborum enim esse maiores,
+            inventore fugit ab!
+          </p>
+        </section>
+
+        <section>
+          <h4>Company Information</h4>
+
+          <nav aria-label="Company information">
+            <ul>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Our Team</a></li>
+              <li><a href="#">Company News</a></li>
+              <li><a href="#">Our Mission</a></li>
+            </ul>
+          </nav>
+        </section>
+
+        <section>
+          <h4>Customer Support</h4>
+
+          <nav aria-label="Customer support">
+            <ul>
+              <li><a href="#">Contact Us</a></li>
+              <li><a href="#">FAQ</a></li>
+              <li><a href="#">Help Center</a></li>
+              <li><a href="#">Live Chat</a></li>
+            </ul>
+          </nav>
+        </section>
+
+        <section>
+          <h4>Legal Information</h4>
+
+          <nav aria-label="Legal information">
+            <ul>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Terms of Service</a></li>
+              <li><a href="#">Cookie Policy</a></li>
+              <li><a href="#">Accessibility Statement</a></li>
+            </ul>
+          </nav>
+        </section>
+
+        <section id="socials">
+          <nav aria-label="Socials">
+            <ul>
+              <li>
+                <a href="#"><img src="/img/facebook.svg" alt="facebook" /></a>
+              </li>
+              <li>
+                <a href="#"><img src="/img/instagram.svg" alt="Instagram" /></a>
+              </li>
+              <li>
+                <a href="#"
+                  ><img src="/img/twitter-x.svg" alt="Twitter / X"
+                /></a>
+              </li>
+              <li>
+                <a href="#"><img src="/img/youtube.svg" alt="YouTube" /></a>
+              </li>
+              <li>
+                <a href="#"><img src="/img/linkedin.svg" alt="LinkedIn" /></a>
+              </li>
+            </ul>
+          </nav>
+        </section>
+
+        <section>
+          <p>&copy; 2023 CareerCrafters. All Rights reserved.</p>
+        </section>
+      </footer>
+    </div>
+  </body>
 </html>
