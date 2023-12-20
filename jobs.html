@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home - CareerCrafters</title>
+    <title>Jobs - CareerCrafters</title>
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
     <link
       rel="stylesheet"
@@ -76,12 +76,66 @@
           </section>
 
           <!-- Location: City, State, Country, Remote, etc. -->
+          <section>
+            <h4>Location</h4>
+
+            <div class="checkbox">
+              <input type="checkbox" name="location" id="city" checked />
+              <label for="city">City</label>
+            </div>
+            <div class="checkbox">
+              <input type="checkbox" name="location" id="state" checked />
+              <label for="state">State</label>
+            </div>
+            <div class="checkbox">
+              <input type="checkbox" name="location" id="country" checked />
+              <label for="country">Country</label>
+            </div>
+            <div class="checkbox">
+              <input type="checkbox" name="location" id="remote" checked />
+              <label for="remote">Remote</label>
+            </div>
+          </section>
 
           <!-- Industry: Technology, Healthcare, Finance, Education, etc. -->
 
           <!-- Company: If the site lists jobs from multiple companies. -->
 
           <!-- Experience Level: Entry-level, Mid-level, Senior-level, Management, etc. -->
+          <section>
+            <h4>Experience Level</h4>
+            <div class="checkbox">
+              <input
+                type="checkbox"
+                name="experience_level"
+                id="entry"
+                checked
+              />
+              <label for="entry">Entry</label>
+            </div>
+            <div class="checkbox">
+              <input type="checkbox" name="experience_level" id="mid" checked />
+              <label for="mid">Mid</label>
+            </div>
+            <div class="checkbox">
+              <input
+                type="checkbox"
+                name="experience_level"
+                id="senior"
+                checked
+              />
+              <label for="senior">Senior</label>
+            </div>
+            <div class="checkbox">
+              <input
+                type="checkbox"
+                name="experience_level"
+                id="management"
+                checked
+              />
+              <label for="management">Management</label>
+            </div>
+          </section>
 
           <!-- Salary Range: This could be a slider where users can select a minimum and maximum salary. -->
 
@@ -96,7 +150,751 @@
           <!-- Benefits: Health insurance, Retirement plan, Paid time off, etc. -->
         </aside>
 
-        <main></main>
+        <main>
+          <div class="job">
+            <img class="img" src="img/company1.svg" alt="Job 1" />
+
+            <div class="inner-container">
+              <a href="#">
+                <h3>Job Title 1</h3>
+              </a>
+
+              <div class="details-container">
+                <div class="tag">
+                  <i class="icon">location_on</i>
+                  <span>Gothenburg</span>
+                </div>
+                <div class="tag">
+                  <i class="icon">work</i>
+                  <span>In-office</span>
+                </div>
+              </div>
+
+              <div class="buttons">
+                <button class="btn icon ghost rounded" type="button">
+                  <i class="icon">bookmark</i>
+                </button>
+
+                <button class="btn icon ghost rounded" type="button">
+                  <i class="icon">thumb_up</i>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="job">
+            <img class="img" src="img/company2.svg" alt="Job 1" />
+
+            <div class="inner-container">
+              <a href="#">
+                <h3>Job Title 2</h3>
+              </a>
+
+              <div class="details-container">
+                <div class="tag">
+                  <i class="icon">location_on</i>
+                  <span>Kungälv</span>
+                </div>
+                <div class="tag">
+                  <i class="icon">work</i>
+                  <span>Remote</span>
+                </div>
+              </div>
+
+              <div class="buttons">
+                <button class="btn icon ghost rounded" type="button">
+                  <i class="icon">bookmark</i>
+                </button>
+
+                <button class="btn icon ghost rounded" type="button">
+                  <i class="icon">thumb_up</i>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="job">
+            <img class="img" src="img/company3.svg" alt="Job 1" />
+
+            <div class="inner-container">
+              <a href="#">
+                <h3>Job Title 3</h3>
+              </a>
+
+              <div class="details-container">
+                <div class="tag">
+                  <i class="icon">location_on</i>
+                  <span>Borås</span>
+                </div>
+                <div class="tag">
+                  <i class="icon">work</i>
+                  <span>In-office</span>
+                </div>
+              </div>
+
+              <div class="buttons">
+                <button class="btn icon ghost rounded" type="button">
+                  <i class="icon">bookmark</i>
+                </button>
+
+                <button class="btn icon ghost rounded" type="button">
+                  <i class="icon">thumb_up</i>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="job">
+            <img class="img" src="img/company1.svg" alt="Job 1" />
+
+            <div class="inner-container">
+              <a href="#">
+                <h3>Job Title 4</h3>
+              </a>
+
+              <div class="details-container">
+                <div class="tag">
+                  <i class="icon">location_on</i>
+                  <span>Gothenburg</span>
+                </div>
+                <div class="tag">
+                  <i class="icon">work</i>
+                  <span>In-office</span>
+                </div>
+              </div>
+
+              <div class="buttons">
+                <button class="btn icon ghost rounded" type="button">
+                  <i class="icon">bookmark</i>
+                </button>
+
+                <button class="btn icon ghost rounded" type="button">
+                  <i class="icon">thumb_up</i>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="job">
+            <img class="img" src="img/company2.svg" alt="Job 1" />
+
+            <div class="inner-container">
+              <a href="#">
+                <h3>Job Title 5</h3>
+              </a>
+
+              <div class="details-container">
+                <div class="tag">
+                  <i class="icon">location_on</i>
+                  <span>Kungälv</span>
+                </div>
+                <div class="tag">
+                  <i class="icon">work</i>
+                  <span>Remote</span>
+                </div>
+              </div>
+
+              <div class="buttons">
+                <button class="btn icon ghost rounded" type="button">
+                  <i class="icon">bookmark</i>
+                </button>
+
+                <button class="btn icon ghost rounded" type="button">
+                  <i class="icon">thumb_up</i>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="job">
+            <img class="img" src="img/company3.svg" alt="Job 1" />
+
+            <div class="inner-container">
+              <a href="#">
+                <h3>Job Title 6</h3>
+              </a>
+
+              <div class="details-container">
+                <div class="tag">
+                  <i class="icon">location_on</i>
+                  <span>Borås</span>
+                </div>
+                <div class="tag">
+                  <i class="icon">work</i>
+                  <span>In-office</span>
+                </div>
+              </div>
+
+              <div class="buttons">
+                <button class="btn icon ghost rounded" type="button">
+                  <i class="icon">bookmark</i>
+                </button>
+
+                <button class="btn icon ghost rounded" type="button">
+                  <i class="icon">thumb_up</i>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="job">
+            <img class="img" src="img/company1.svg" alt="Job 1" />
+
+            <div class="inner-container">
+              <a href="#">
+                <h3>Job Title 7</h3>
+              </a>
+
+              <div class="details-container">
+                <div class="tag">
+                  <i class="icon">location_on</i>
+                  <span>Gothenburg</span>
+                </div>
+                <div class="tag">
+                  <i class="icon">work</i>
+                  <span>In-office</span>
+                </div>
+              </div>
+
+              <div class="buttons">
+                <button class="btn icon ghost rounded" type="button">
+                  <i class="icon">bookmark</i>
+                </button>
+
+                <button class="btn icon ghost rounded" type="button">
+                  <i class="icon">thumb_up</i>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="job">
+            <img class="img" src="img/company2.svg" alt="Job 1" />
+
+            <div class="inner-container">
+              <a href="#">
+                <h3>Job Title 8</h3>
+              </a>
+
+              <div class="details-container">
+                <div class="tag">
+                  <i class="icon">location_on</i>
+                  <span>Kungälv</span>
+                </div>
+                <div class="tag">
+                  <i class="icon">work</i>
+                  <span>Remote</span>
+                </div>
+              </div>
+
+              <div class="buttons">
+                <button class="btn icon ghost rounded" type="button">
+                  <i class="icon">bookmark</i>
+                </button>
+
+                <button class="btn icon ghost rounded" type="button">
+                  <i class="icon">thumb_up</i>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="job">
+            <img class="img" src="img/company3.svg" alt="Job 1" />
+
+            <div class="inner-container">
+              <a href="#">
+                <h3>Job Title 9</h3>
+              </a>
+
+              <div class="details-container">
+                <div class="tag">
+                  <i class="icon">location_on</i>
+                  <span>Borås</span>
+                </div>
+                <div class="tag">
+                  <i class="icon">work</i>
+                  <span>In-office</span>
+                </div>
+              </div>
+
+              <div class="buttons">
+                <button class="btn icon ghost rounded" type="button">
+                  <i class="icon">bookmark</i>
+                </button>
+
+                <button class="btn icon ghost rounded" type="button">
+                  <i class="icon">thumb_up</i>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="job">
+            <img class="img" src="img/company1.svg" alt="Job 1" />
+
+            <div class="inner-container">
+              <a href="#">
+                <h3>Job Title 10</h3>
+              </a>
+
+              <div class="details-container">
+                <div class="tag">
+                  <i class="icon">location_on</i>
+                  <span>Gothenburg</span>
+                </div>
+                <div class="tag">
+                  <i class="icon">work</i>
+                  <span>In-office</span>
+                </div>
+              </div>
+
+              <div class="buttons">
+                <button class="btn icon ghost rounded" type="button">
+                  <i class="icon">bookmark</i>
+                </button>
+
+                <button class="btn icon ghost rounded" type="button">
+                  <i class="icon">thumb_up</i>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="job">
+            <img class="img" src="img/company2.svg" alt="Job 1" />
+
+            <div class="inner-container">
+              <a href="#">
+                <h3>Job Title 11</h3>
+              </a>
+
+              <div class="details-container">
+                <div class="tag">
+                  <i class="icon">location_on</i>
+                  <span>Kungälv</span>
+                </div>
+                <div class="tag">
+                  <i class="icon">work</i>
+                  <span>Remote</span>
+                </div>
+              </div>
+
+              <div class="buttons">
+                <button class="btn icon ghost rounded" type="button">
+                  <i class="icon">bookmark</i>
+                </button>
+
+                <button class="btn icon ghost rounded" type="button">
+                  <i class="icon">thumb_up</i>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="job">
+            <img class="img" src="img/company3.svg" alt="Job 1" />
+
+            <div class="inner-container">
+              <a href="#">
+                <h3>Job Title 12</h3>
+              </a>
+
+              <div class="details-container">
+                <div class="tag">
+                  <i class="icon">location_on</i>
+                  <span>Borås</span>
+                </div>
+                <div class="tag">
+                  <i class="icon">work</i>
+                  <span>In-office</span>
+                </div>
+              </div>
+
+              <div class="buttons">
+                <button class="btn icon ghost rounded" type="button">
+                  <i class="icon">bookmark</i>
+                </button>
+
+                <button class="btn icon ghost rounded" type="button">
+                  <i class="icon">thumb_up</i>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="job">
+            <img class="img" src="img/company1.svg" alt="Job 1" />
+
+            <div class="inner-container">
+              <a href="#">
+                <h3>Job Title 13</h3>
+              </a>
+
+              <div class="details-container">
+                <div class="tag">
+                  <i class="icon">location_on</i>
+                  <span>Gothenburg</span>
+                </div>
+                <div class="tag">
+                  <i class="icon">work</i>
+                  <span>In-office</span>
+                </div>
+              </div>
+
+              <div class="buttons">
+                <button class="btn icon ghost rounded" type="button">
+                  <i class="icon">bookmark</i>
+                </button>
+
+                <button class="btn icon ghost rounded" type="button">
+                  <i class="icon">thumb_up</i>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="job">
+            <img class="img" src="img/company2.svg" alt="Job 1" />
+
+            <div class="inner-container">
+              <a href="#">
+                <h3>Job Title 14</h3>
+              </a>
+
+              <div class="details-container">
+                <div class="tag">
+                  <i class="icon">location_on</i>
+                  <span>Kungälv</span>
+                </div>
+                <div class="tag">
+                  <i class="icon">work</i>
+                  <span>Remote</span>
+                </div>
+              </div>
+
+              <div class="buttons">
+                <button class="btn icon ghost rounded" type="button">
+                  <i class="icon">bookmark</i>
+                </button>
+
+                <button class="btn icon ghost rounded" type="button">
+                  <i class="icon">thumb_up</i>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="job">
+            <img class="img" src="img/company3.svg" alt="Job 1" />
+
+            <div class="inner-container">
+              <a href="#">
+                <h3>Job Title 15</h3>
+              </a>
+
+              <div class="details-container">
+                <div class="tag">
+                  <i class="icon">location_on</i>
+                  <span>Borås</span>
+                </div>
+                <div class="tag">
+                  <i class="icon">work</i>
+                  <span>In-office</span>
+                </div>
+              </div>
+
+              <div class="buttons">
+                <button class="btn icon ghost rounded" type="button">
+                  <i class="icon">bookmark</i>
+                </button>
+
+                <button class="btn icon ghost rounded" type="button">
+                  <i class="icon">thumb_up</i>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="job">
+            <img class="img" src="img/company1.svg" alt="Job 1" />
+
+            <div class="inner-container">
+              <a href="#">
+                <h3>Job Title 16</h3>
+              </a>
+
+              <div class="details-container">
+                <div class="tag">
+                  <i class="icon">location_on</i>
+                  <span>Gothenburg</span>
+                </div>
+                <div class="tag">
+                  <i class="icon">work</i>
+                  <span>In-office</span>
+                </div>
+              </div>
+
+              <div class="buttons">
+                <button class="btn icon ghost rounded" type="button">
+                  <i class="icon">bookmark</i>
+                </button>
+
+                <button class="btn icon ghost rounded" type="button">
+                  <i class="icon">thumb_up</i>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="job">
+            <img class="img" src="img/company2.svg" alt="Job 1" />
+
+            <div class="inner-container">
+              <a href="#">
+                <h3>Job Title 17</h3>
+              </a>
+
+              <div class="details-container">
+                <div class="tag">
+                  <i class="icon">location_on</i>
+                  <span>Kungälv</span>
+                </div>
+                <div class="tag">
+                  <i class="icon">work</i>
+                  <span>Remote</span>
+                </div>
+              </div>
+
+              <div class="buttons">
+                <button class="btn icon ghost rounded" type="button">
+                  <i class="icon">bookmark</i>
+                </button>
+
+                <button class="btn icon ghost rounded" type="button">
+                  <i class="icon">thumb_up</i>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="job">
+            <img class="img" src="img/company3.svg" alt="Job 1" />
+
+            <div class="inner-container">
+              <a href="#">
+                <h3>Job Title 18</h3>
+              </a>
+
+              <div class="details-container">
+                <div class="tag">
+                  <i class="icon">location_on</i>
+                  <span>Borås</span>
+                </div>
+                <div class="tag">
+                  <i class="icon">work</i>
+                  <span>In-office</span>
+                </div>
+              </div>
+
+              <div class="buttons">
+                <button class="btn icon ghost rounded" type="button">
+                  <i class="icon">bookmark</i>
+                </button>
+
+                <button class="btn icon ghost rounded" type="button">
+                  <i class="icon">thumb_up</i>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="job">
+            <img class="img" src="img/company1.svg" alt="Job 1" />
+
+            <div class="inner-container">
+              <a href="#">
+                <h3>Job Title 19</h3>
+              </a>
+
+              <div class="details-container">
+                <div class="tag">
+                  <i class="icon">location_on</i>
+                  <span>Gothenburg</span>
+                </div>
+                <div class="tag">
+                  <i class="icon">work</i>
+                  <span>In-office</span>
+                </div>
+              </div>
+
+              <div class="buttons">
+                <button class="btn icon ghost rounded" type="button">
+                  <i class="icon">bookmark</i>
+                </button>
+
+                <button class="btn icon ghost rounded" type="button">
+                  <i class="icon">thumb_up</i>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="job">
+            <img class="img" src="img/company2.svg" alt="Job 1" />
+
+            <div class="inner-container">
+              <a href="#">
+                <h3>Job Title 20</h3>
+              </a>
+
+              <div class="details-container">
+                <div class="tag">
+                  <i class="icon">location_on</i>
+                  <span>Kungälv</span>
+                </div>
+                <div class="tag">
+                  <i class="icon">work</i>
+                  <span>Remote</span>
+                </div>
+              </div>
+
+              <div class="buttons">
+                <button class="btn icon ghost rounded" type="button">
+                  <i class="icon">bookmark</i>
+                </button>
+
+                <button class="btn icon ghost rounded" type="button">
+                  <i class="icon">thumb_up</i>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="job">
+            <img class="img" src="img/company3.svg" alt="Job 1" />
+
+            <div class="inner-container">
+              <a href="#">
+                <h3>Job Title 21</h3>
+              </a>
+
+              <div class="details-container">
+                <div class="tag">
+                  <i class="icon">location_on</i>
+                  <span>Borås</span>
+                </div>
+                <div class="tag">
+                  <i class="icon">work</i>
+                  <span>In-office</span>
+                </div>
+              </div>
+
+              <div class="buttons">
+                <button class="btn icon ghost rounded" type="button">
+                  <i class="icon">bookmark</i>
+                </button>
+
+                <button class="btn icon ghost rounded" type="button">
+                  <i class="icon">thumb_up</i>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="job">
+            <img class="img" src="img/company1.svg" alt="Job 1" />
+
+            <div class="inner-container">
+              <a href="#">
+                <h3>Job Title 22</h3>
+              </a>
+
+              <div class="details-container">
+                <div class="tag">
+                  <i class="icon">location_on</i>
+                  <span>Gothenburg</span>
+                </div>
+                <div class="tag">
+                  <i class="icon">work</i>
+                  <span>In-office</span>
+                </div>
+              </div>
+
+              <div class="buttons">
+                <button class="btn icon ghost rounded" type="button">
+                  <i class="icon">bookmark</i>
+                </button>
+
+                <button class="btn icon ghost rounded" type="button">
+                  <i class="icon">thumb_up</i>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="job">
+            <img class="img" src="img/company2.svg" alt="Job 1" />
+
+            <div class="inner-container">
+              <a href="#">
+                <h3>Job Title 23</h3>
+              </a>
+
+              <div class="details-container">
+                <div class="tag">
+                  <i class="icon">location_on</i>
+                  <span>Kungälv</span>
+                </div>
+                <div class="tag">
+                  <i class="icon">work</i>
+                  <span>Remote</span>
+                </div>
+              </div>
+
+              <div class="buttons">
+                <button class="btn icon ghost rounded" type="button">
+                  <i class="icon">bookmark</i>
+                </button>
+
+                <button class="btn icon ghost rounded" type="button">
+                  <i class="icon">thumb_up</i>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="job">
+            <img class="img" src="img/company3.svg" alt="Job 1" />
+
+            <div class="inner-container">
+              <a href="#">
+                <h3>Job Title 24</h3>
+              </a>
+
+              <div class="details-container">
+                <div class="tag">
+                  <i class="icon">location_on</i>
+                  <span>Borås</span>
+                </div>
+                <div class="tag">
+                  <i class="icon">work</i>
+                  <span>In-office</span>
+                </div>
+              </div>
+
+              <div class="buttons">
+                <button class="btn icon ghost rounded" type="button">
+                  <i class="icon">bookmark</i>
+                </button>
+
+                <button class="btn icon ghost rounded" type="button">
+                  <i class="icon">thumb_up</i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </main>
       </div>
 
       <footer id="footer">
